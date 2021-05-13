@@ -1,0 +1,252 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Lanac_prodavnica.Artikal">
+    <Position X="2.75" Y="5.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAJAAACAAAAAAAAABAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>Artikal.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lanac_prodavnica.TrajniProizvod">
+    <Position X="0.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TrajniProizvod.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lanac_prodavnica.MlečniProizvod">
+    <Position X="0.5" Y="8.25" Width="1.5" />
+    <InheritanceLine Type="Lanac_prodavnica.Artikal" FixedFromPoint="true">
+      <Path>
+        <Point X="2.875" Y="7.315" />
+        <Point X="2.875" Y="7.95" />
+        <Point X="1.25" Y="7.95" />
+        <Point X="1.25" Y="8.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MlečniProizvod.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lanac_prodavnica.SvežeMeso">
+    <Position X="4.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SvežeMeso.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lanac_prodavnica.ObrađenoMeso">
+    <Position X="3.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ObrađenoMeso.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lanac_prodavnica.Pecivo_KuvanaHrana">
+    <Position X="4.25" Y="8" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pecivo_KuvanaHrana.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lanac_prodavnica.Voće_Povrće">
+    <Position X="0.5" Y="9.5" Width="1.5" />
+    <InheritanceLine Type="Lanac_prodavnica.Artikal" ManuallyRouted="true">
+      <Path>
+        <Point X="3.875" Y="7.315" />
+        <Point X="3.875" Y="8.168" />
+        <Point X="3.028" Y="8.168" />
+        <Point X="3.028" Y="9.377" />
+        <Point X="1.25" Y="9.377" />
+        <Point X="1.25" Y="9.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Voće_Povrće.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lanac_prodavnica.ZaleđeniProgram">
+    <Position X="0.75" Y="10.75" Width="1.5" />
+    <InheritanceLine Type="Lanac_prodavnica.Artikal" ManuallyRouted="true">
+      <Path>
+        <Point X="3.875" Y="7.315" />
+        <Point X="3.875" Y="8.168" />
+        <Point X="3.019" Y="8.168" />
+        <Point X="3.019" Y="10.627" />
+        <Point X="1.5" Y="10.627" />
+        <Point X="1.5" Y="10.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ZaleđeniProgram.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lanac_prodavnica.Lager">
+    <Position X="7.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>Lager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lanac_prodavnica.Radnik">
+    <Position X="10" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Radnik.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lanac_prodavnica.Kasir">
+    <Position X="14" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Kasir.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lanac_prodavnica.Aranžer">
+    <Position X="12" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Aranžer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lanac_prodavnica.Mesar">
+    <Position X="7.75" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Mesar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lanac_prodavnica.Račun">
+    <Position X="11.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAABAAAAAAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>Račun.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lanac_prodavnica.Kasa">
+    <Position X="9.25" Y="4.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>IAAAACAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Kasa.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lanac_prodavnica.Prodavnica">
+    <Position X="14.75" Y="4" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABQAIAEAAAAAAAEAAAAAAAAAQAAIAAAAAAAAAA=</HashCode>
+      <FileName>Prodavnica.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lanac_prodavnica.MalaProdavnica">
+    <Position X="9.25" Y="0.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAASAAAAAAAAAAAAAAAAAQAAAQAAIAAAAAAAAAA=</HashCode>
+      <FileName>MalaProdavnica.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lanac_prodavnica.SrednjaProdavnica">
+    <Position X="11.75" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAggADAQAAAAAAAAAAAAEAAAAEAAAQAAIAAAAAAAAAA=</HashCode>
+      <FileName>SrednjaProdavnica.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lanac_prodavnica.VelikaProdavnica">
+    <Position X="14.5" Y="1" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQQAAAAAAAAAAAAAAAAAAAAQAAIAAAAAAAAAA=</HashCode>
+      <FileName>VelikaProdavnica.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lanac_prodavnica.SuperMarket">
+    <Position X="17.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAAAAAAAAAAAAAAAAAQAAIAAAAAAAAAA=</HashCode>
+      <FileName>SuperMarket.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lanac_prodavnica.CentralniLager">
+    <Position X="3.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CentralniLager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lanac_prodavnica.PoslovnaJedinica">
+    <Position X="3.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PoslovnaJedinica.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lanac_prodavnica.Kompanija">
+    <Position X="1.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Kompanija.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lanac_prodavnica.MenadžerProdavnice">
+    <Position X="7.5" Y="10.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MenadžerProdavnice.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lanac_prodavnica.MenadžerPoslovneJedinice">
+    <Position X="9.5" Y="10.25" Width="2.25" />
+    <InheritanceLine Type="Lanac_prodavnica.Radnik" ManuallyRouted="true">
+      <Path>
+        <Point X="10.75" Y="7.853" />
+        <Point X="10.75" Y="8.308" />
+        <Point X="9.877" Y="8.308" />
+        <Point X="9.877" Y="10.114" />
+        <Point X="10.625" Y="10.114" />
+        <Point X="10.625" Y="10.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MenadžerPoslovneJedinice.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lanac_prodavnica.PomoćnoOsoblje">
+    <Position X="16.25" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PomoćnoOsoblje.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lanac_prodavnica.Pekar_Kuvar">
+    <Position X="10" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pekar_Kuvar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lanac_prodavnica.DirektorPoslovneJedinice">
+    <Position X="12" Y="10.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DirektorPoslovneJedinice.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lanac_prodavnica.ZaposleniUDirekciji">
+    <Position X="14.25" Y="10.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ZaposleniUDirekciji.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lanac_prodavnica.GeneralniDirektor">
+    <Position X="16.75" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GeneralniDirektor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
