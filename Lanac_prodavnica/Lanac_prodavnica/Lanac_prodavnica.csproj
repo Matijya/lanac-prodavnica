@@ -49,6 +49,7 @@
     <Compile Include="Aranžer.cs" />
     <Compile Include="Artikal.cs" />
     <Compile Include="CentralniLager.cs" />
+    <Compile Include="Lager.cs" />
     <Compile Include="DirektorPoslovneJedinice.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -60,7 +61,6 @@
     <Compile Include="Kasa.cs" />
     <Compile Include="Kasir.cs" />
     <Compile Include="Kompanija.cs" />
-    <Compile Include="Lager.cs" />
     <Compile Include="MalaProdavnica.cs" />
     <Compile Include="MenadžerPoslovneJedinice.cs" />
     <Compile Include="MenadžerProdavnice.cs" />
@@ -72,10 +72,11 @@
     <Compile Include="PomoćnoOsoblje.cs" />
     <Compile Include="PoslovnaJedinica.cs" />
     <Compile Include="Prodavnica.cs" />
+    <Compile Include="Prodavnica2.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Radnik.cs" />
-    <Compile Include="Račun.cs" />
+    <Compile Include="Racun.cs" />
     <Compile Include="SrednjaProdavnica.cs" />
     <Compile Include="SuperMarket.cs" />
     <Compile Include="SvežeMeso.cs" />
@@ -106,6 +107,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="tekst zadatka.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
